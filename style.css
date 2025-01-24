@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    background-color: #333333;
+    margin:0px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:78px;
+    background-color: rgb(6, 6, 52);
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    margin: 0 26px;
+}
+.left{
+    font-size: 2rem;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     margin :23px 0;
+    
+}
+
+.ls{
+   margin-right:150px;
+    width: 30%;
+  
+}
+img{
+    border-radius:50%;
+    object-fit: cover;
+}
+.rs{
+    width:33%;
+    margin-top: 40px;
+}
+#name{
+    color: orangered;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:aqua;
+    font-size: 1.08rem;
+}
+p{
+   margin: 10px;
+    font-size: 1.2rem;
+color:rgb(225, 210, 210);
+text-align: justify;
+white-space: pre-wrap; 
+word-wrap: break-word; 
+line-height: 1.5;
+
+}
+.intro{ 
+    margin: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 52%;
+}
+.icons.fa-brands{
+    color:#bbb;
+}
+.icons{
+    width: 1%;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+font-size: 1.6rem;
+}
+.tols{
+    margin-bottom: 10px;
+}
+.icons.fa-brands:hover{
+color: aqua;
+font-size: 2rem;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+    margin-bottom: 5px;
+}
+.edu{
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+.sub{
+    font-size: 1.1rem;
+}
+.logo{
+    font-size: 2rem;
+    margin: 20px;
+    margin-left: 170px;
+}
+h2{
+    margin-left: 170px; 
+}
+.plus{
+    font-size: 1.3rem;
+}
+.box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container.comtactinfo.box.icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+}
+.container.contactinfo.box.text{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.contactform{
+    width: 38%;
+    padding: 40px;
+    background:#fff ;
+    color: black;
+    margin-right: 25px;
+}
+.inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.inputbox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    resize: none;
+}
+.inputbox input[type=submit]{
+    width: 100px;
+    background: #00bcd4;
+}
+.contactinfo{
+width: 30%;
+
+}
+.content{
+    width: 20%;
+}
+.text{
+    margin-left: 10px;
+}
+form{
+    
+}
