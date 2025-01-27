@@ -27,6 +27,7 @@ li{
 }
 .left{
     font-size: 2rem;
+   
 }
 section{
     display: flex;
@@ -175,6 +176,8 @@ width: 30%;
 .text{
     margin-left: 10px;
 }
-form{
-    
+.naam{
+    position: absolute;
+    top: -10px; 
+  left: 0px;
 }
