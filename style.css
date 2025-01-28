@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: #333333;
+    background-image: url('background.jpg');
+ 
+   /* background-color: #333333;(previous one)*/
     margin:0px;
     color: white;
 }
@@ -15,7 +17,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height:78px;
-    background-color: rgb(6, 6, 52);
+    background-color: #333333;
 }
 ul{
     display: flex;
@@ -80,6 +82,7 @@ line-height: 1.5;
 width: 52%;
 }
 .icons.fa-brands{
+    transition: transform 0.5s ease;
     color:#bbb;
 }
 .icons{
@@ -97,7 +100,10 @@ font-size: 1.6rem;
 .icons.fa-brands:hover{
 color: aqua;
 font-size: 2rem;
+transform: rotate(360deg);
+transition: transform 0.5s ease;
 }
+
 .me{
     display: flex;
     justify-content: space-around;
@@ -180,4 +186,10 @@ width: 30%;
     position: absolute;
     top: -10px; 
   left: 0px;
+}
+.photo{
+    display: inline-block;
+   
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(246, 0, 0, 0.6); 
 }
