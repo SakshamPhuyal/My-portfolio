@@ -16,8 +16,9 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height:78px;
+    height:70px;
     background-color: #333333;
+    background-color: rgba(51, 77, 81, 0.7); 
 }
 ul{
     display: flex;
@@ -82,8 +83,12 @@ line-height: 1.5;
 width: 52%;
 }
 .icons.fa-brands{
-    transition: transform 0.5s ease;
     color:#bbb;
+}
+.icons i {
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px 5px rgba(17, 255, 0, 0.7); 
+border-radius: 50%;
 }
 .icons{
     width: 1%;
@@ -92,18 +97,11 @@ width: 52%;
 justify-content: center;
 align-items: center;
 gap: 3rem;
-font-size: 1.6rem;
+font-size: 1.6rem; 
 }
 .tols{
     margin-bottom: 10px;
 }
-.icons.fa-brands:hover{
-color: aqua;
-font-size: 2rem;
-transform: rotate(360deg);
-transition: transform 0.5s ease;
-}
-
 .me{
     display: flex;
     justify-content: space-around;
@@ -189,7 +187,15 @@ width: 30%;
 }
 .photo{
     display: inline-block;
-   
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(246, 0, 0, 0.6); 
+}
+icons i {
+    transition: transform 0.5s ease; 
+}
+
+.icons i:hover {
+    color: aqua;
+    font-size:1.6rem ;
+    transform: rotate(360deg);
 }
