@@ -32,6 +32,9 @@ li{
     font-size: 2rem;
    
 }
+.right{
+    font-size: 1.2rem;
+}
 section{
     display: flex;
     justify-content: space-around;
@@ -255,4 +258,9 @@ border-radius:8px;
 }
  .expertise{
     margin-left: 50px;
+ }
+ #tglbtn{
+    margin-left: 200px;
+    margin-right: -150px;
+   
  }
